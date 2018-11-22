@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Alexander Ovchar](https://up.htmlacademy.ru/htmlcss/23/user/339289).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
