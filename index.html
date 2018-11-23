@@ -5,8 +5,126 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <ul class="site-navigation">
+          <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
+          <li><a href="media.html">ФОТО И ВИДЕО</a></li>
+          <li><a href="map.html">КАРТА ШТАТА</a></li>
+          <li><a href="hotels.html">ГОСТИНИЦЫ</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+    <main class="container">
+      <h1 class="visually-hidden">Туристический горный городок Седона</h1>
+      <section class="poster">
+        <!-- изображение сделал декоративным и фоновым -->
+        <p>
+          СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br>
+          ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!
+        </p>
+      </section>
+      <section class="advantages">
+        <h2 class="visually-hidden">Конкурентные преимущества Седоны</h2>
+        <b>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН</b>
+        <ul class="advantages-list">
+          <li class="advantages-item compound-item">
+            <h3>НАСТОЯЩИЙ ГОРОДОК</h3>
+            <p>— №1 —</p>
+            <p>
+              СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЁТ СВОЯ ЖИЗНЬ
+            </p>
+        		<!-- изображение сделал декоративным и фоновым -->
+        		<!-- добавил вложенный список для первого преимущества -->
+						<ul>
+							<li>
+								<h4>ЖИЛЬЁ</h4>
+								<p>РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, ВСЁ КАК В КИНО!</p>
+							</li>
+							<li>
+								<h4>ЕДА</h4>
+								<p>ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
+							</li>
+							<li>
+								<h4>СУВЕНИРЫ</h4>
+								<p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
+							</li>
+						</ul>
+          </li>
+          <li class="advantages-item compound-item">
+            <h3>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
+            <p>— №2 —</p>
+            <p>
+              ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ
+            </p>
+          </li>
+          <li class="advantages-item">
+            <h3>НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
+            <p>— №3 —</p>
+            <p>
+              ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО
+            </p>
+          </li>
+          <li class="advantages-item">
+            <h3>КРАСИВАЯ ДОРОГА</h3>
+            <p>— №4 —</p>
+            <p>
+              ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО!
+            </p>
+          </li>
+          <li class="advantages-item">
+            <h3>МАЛО ТУРИСТОВ</h3>
+            <p>— №5 —</p>
+            <p>
+              БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И ТОЛПИТСЯ ТАМ
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="offer">
+        <h2>ЗАИНТЕРЕСОВАЛИСЬ?</h2>
+        <p>УКАЖИТЕ КОНКРЕТНЫЕ ДАТЫ ПОЕЗДКИ, И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
 
+        <h2>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
+        <form action="#" class="modal modal-finder">
+					<label for="checkin-date-field">ДАТА ЗАЕЗДА:</label>
+					<input type="date" name="checkin-date" id="checkin-date-field"><br>
+
+					<label for="checkout-date-field">ДАТА ВЫЕЗДА:</label>
+					<input type="date" name="checkout-date" id="checkout-date-field"><br>
+
+					<label for="adults-count-field">ВЗРОСЛЫЕ:</label>
+					<input type="text" name="adults-count" id="adults-count-field">
+
+					<label for="children-count-field">ДЕТИ:</label>
+					<input type="text" name="children-count" id="children-count-field"><br>
+
+					<input type="submit" value="НАЙТИ">
+			</form>
+      </section>
+			<section class="map">
+				<div class="map-image">
+					<img src="#" width="100" height="100" alt="Карта">
+				</div>
+			</section>
+    </main>
+
+    <footer class="main-footer">
+			<p class="footer-keywords">
+				#VISITSEDONA
+			</p>
+			<div class="footer-social">
+				<ul>
+					<li><a class="social-button" href="#">Twitter</li>
+					<li><a class="social-button" href="#">Facebook</li>
+					<li><a class="social-button" href="#">YouTube</li>
+				</ul>
+			</div>
+			<p class="footer-copyright">
+				<b>WEBSITE BY</b>
+				<a href="#"><img src="#" width="100" height="100" alt="HTML Academy"></a>
+			</p>
+		</footer>
   </body>
 </html>
