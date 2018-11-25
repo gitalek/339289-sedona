@@ -25,43 +25,47 @@
     <section class="filters">
       <h2 class="visually-hidden">Фильтр гостиниц</h2>
       <form action="#">
-        <h3>инфраструктура:</h3>
-        <label>
-          <input type="checkbox" name="pool" checked>
-          бассейн
-        </label><br>
-        <label>
-          <input type="checkbox" name="parking">
-          парковка
-        </label><br>
-        <label>
-          <input type="checkbox" name="wi-fi">
-          wi-fi
-        </label><br>
+        <fieldset>
+          <legend>инфраструктура:</legend>
+          <label>
+            <input type="checkbox" name="pool" checked>
+            бассейн
+          </label><br>
+          <label>
+            <input type="checkbox" name="parking">
+            парковка
+          </label><br>
+          <label>
+            <input type="checkbox" name="wi-fi">
+            wi-fi
+          </label><br>
+        </fieldset>
 
-        <h3>тип жилья:</h3>
-        <label>
-          <input type="checkbox" name="hotel" checked>
-          гостиница
-        </label><br>
-        <label>
-          <input type="checkbox" name="motel" checked>
-          мотель
-        </label><br>
-        <label>
-          <input type="checkbox" name="apartment" checked>
-          апартаменты
-        </label><br>
-
-        <h3>стоимость в сутки (р):</h3>
-        <p class="chosen-range">
-          <span>от 0</span>
-          <span>до 5000</span>
-        </p>
-        0<input type="range" name="min-price-per-day" min="0" max="5000" step="30">5000<br>
-        0<input type="range" name="max-price-per-day" min="0" max="5000" step="30">5000
-        <br>
-
+        <fieldset>
+          <legend>тип жилья:</legend>
+          <label>
+            <input type="checkbox" name="hotel" checked>
+            гостиница
+          </label><br>
+          <label>
+            <input type="checkbox" name="motel" checked>
+            мотель
+          </label><br>
+          <label>
+            <input type="checkbox" name="apartment" checked>
+            апартаменты
+          </label><br>
+        </fieldset>
+        <fieldset>
+          <legend>стоимость в сутки (р):</legend>
+          <p class="chosen-range">
+            <span>от 0</span>
+            <span>до 5000</span>
+          </p>
+          0<input type="range" name="min-price-per-day" min="0" max="5000" step="30">5000<br>
+          0<input type="range" name="max-price-per-day" min="0" max="5000" step="30">5000
+          <br>
+        </fieldset>
         <input type="submit" value="Показать">
       </form>
     </section>
