@@ -9,7 +9,7 @@
   <header class="main-header">
     <nav class="main-navigation">
       <a class="main-header-logo">
-        <img src="img/logo.svg" width="100" height="100" alt="Логотип">
+        <img src="img/logo.svg" width="140" height="71" alt="Логотип">
       </a>
       <ul class="site-navigation">
         <li><a href="info.html">Информация</a></li>
@@ -24,6 +24,7 @@
     <h1 class="visually-hidden">Туристический горный городок Седона</h1>
     <section class="poster">
       <!-- изображение сделал декоративным и фоновым -->
+      <img src="img/welcome.svg" width="459" height="353" alt="Логотип">
       <p>
         Седона — небольшой городок в аризоне,<br>
         заслуживающий большего!
@@ -91,7 +92,7 @@
       <strong>Заинтересовались?</strong>
       <p>Укажите конкретные даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
 
-      <button class="show-modal-finder">Поиск гостиницы в седоне</button>
+      <button class="show-modal-finder" type="button">Поиск гостиницы в седоне</button>
       <form action="#" class="modal modal-finder">
         <div>
           <label for="checkin-date-field">Дата заезда:</label>
@@ -105,15 +106,17 @@
 
         <div>
           <label for="adults-count-field">Взрослые:</label>
-          <button>-</button>
+          <button type="button">-</button>
           <input type="text" name="adults-count" id="adults-count-field">
-          <button>+</button>
+          <button type="button">+</button>
 
           <label for="children-count-field">Дети:</label>
-          <button>-</button>
+          <button type="button">-</button>
           <input type="text" name="children-count" id="children-count-field"><br>
-          <button>+</button>
+          <button type="button">+</button>
         </div>
+
+        <button type="submit">Найти</button>
       </form>
     </section>
     <section class="map">
